@@ -3,6 +3,6 @@ You can download my projects off of here instead of going to my github and havin
 
 New features:
     Searching
-    Page Buttons Highlight When Hovering Over
+    Page Buttons Highlight When Hovering Over.
 Features being worked on:
     pressing view more versions shows more buttons instead of redirecting you to the the project page
