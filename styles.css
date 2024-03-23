@@ -1,0 +1,162 @@
+.header{
+    background-color:rgb(51, 51, 51);
+    color: lightcyan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-bottom: 1px;
+}
+.button-1{
+    padding: 3px;
+    margin: 2px;
+    border-radius: 2px;
+    color:white;
+    text-decoration: none;
+    transition-duration: .3s;
+}
+.button-1:hover{
+    background-color: rgb(95, 95, 95);
+    padding: 3px;
+    margin: 2px;
+    border-radius: 2px;
+    color:white;
+    text-decoration: none;
+}
+.button-1.pageon:hover {
+    background-color: rgb(57, 57, 57);
+    padding: 3px;
+    margin: 2px;
+    border-radius: 2px;
+}
+.buttons{
+    text-align: center;
+    background-color:#121212;
+    padding: 6px;
+    border-radius: 2px;
+}
+.project-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #0606061d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.project-box{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    background-color: #333333;
+
+}
+.project-div{
+    background-color: #333333;
+    border-radius: 10px;
+    box-shadow: 0 10px 100px rgba(41, 60, 117, 0.373);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.inline{
+    display: inline;
+}
+.moreversions{
+    color: lightgray;
+    background-color: #4d4c4c;
+    text-decoration: none;
+    padding: 3px ;
+    border-radius: 4px;
+}
+.am{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: pink;
+}
+.credits{
+    font-size:small;
+    color: lightblue;
+}
+.creditbutton{
+    display: inline-block;
+    padding: 2px 4px;
+    color: black;
+    text-decoration: none;
+    background-color:rgb(71, 71, 71);
+    border-radius: 10px;
+}
+.me{
+    font-size: larger;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#ed9797;
+}
+.center{
+    text-align: center;
+}
+.red {
+    color:red
+}
+.allprojects{
+    color: rgb(0, 210, 0);
+    text-decoration: none;
+}
+.githublink2{
+    color: black;
+    background-color:rgb(177, 212, 255);
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 0 0px 25px rgb(73, 90, 143);
+}
+.githublink{
+    color: black;
+    background-color:rgb(255, 177, 177);
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 0 0px 25px rgb(143, 74, 74);
+}
+.projectthing{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    background-color: #333333;
+}
+.pageon {
+    background-color: rgb(57, 57, 57);
+    padding: 3px;
+    margin: 2px;
+    border-radius: 2px;
+}
+.credits-header {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: lightblue;
+}
+.searchbox {
+    background-color: rgb(75, 75, 75);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+.searchbox::-webkit-search-cancel-button{
+    appearance:none;
+}
+.searchbox::-webkit-search-results-button{
+    appearance:unset;
+}
+.searchbutton{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    transition-duration: 50ms;
+}
+.searchbutton:hover{
+    background-color: #161616;
+}
+.searchbutton:active{
+    color: black;
+    background-color: rgb(90, 90, 90);
+}
