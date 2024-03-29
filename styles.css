@@ -44,6 +44,9 @@
     -ms-user-select: none;
     user-select: none;
 }
+.project-link:hover {
+    background-color: #06060659;
+}
 .project-box{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:black;
