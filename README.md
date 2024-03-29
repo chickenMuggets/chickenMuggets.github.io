@@ -13,6 +13,6 @@ Features being worked on:
     Effect that is on reaction time button being added to talk to yourself button,
 Long term features being added:
     Lightmode (will be coming at furthest 29/06/24),
-    light/dark mode toggle switch (will be coming at furthest 29/06/24),
+    light/dark mode toggle switch (will be coming at furthest 29/06/24)
 Why am I seeing this:
     If you Go to my website and see this then it means that the website has been taken offline temporarily please wait for developers to resolve the issue
