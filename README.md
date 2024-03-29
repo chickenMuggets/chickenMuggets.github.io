@@ -11,5 +11,8 @@ Features being worked on:
     changing header on websites page to say "websites" instead of "projects"
     Updating about me and credit pages to more monotone designs to be more consitent with newer pages.
     Effect that is on reaction time button being added to talk to yourself button
+long term features being added:
+    Lightmode (will be coming at furthest 01/06/24)
+    light/dark mode toggle switch (will be coming at furthest 01/06/24)
 Why am I seeing this:
     If you Go to my website and see this then it means that the website has been taken offline temporarily please wait for developers to resolve the issue
