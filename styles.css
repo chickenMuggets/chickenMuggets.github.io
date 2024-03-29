@@ -64,10 +64,25 @@
     color: lightgray;
     background-color: #4d4c4c;
     text-decoration: none;
-    padding: 3px ;
+    padding:6px;
+    border-radius: 4px;
+    border: none;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+.versions{
+    color: lightgray;
+    background-color: #4d4c4c;
+    text-decoration: none;
+    padding:6px;
+    font-size: 12px;
     border-radius: 4px;
     -ms-user-select: none;
     user-select: none;
+    border: none;
+}
+.versionscontainer{
+    display: none;
 }
 .am{
     text-align: center;
@@ -172,4 +187,15 @@
 .disable:hover{
     background-color: #06060659;
     
+}
+.goback{
+    color: red;
+    transition-duration: 300ms;
+}
+.goback:hover{
+    color: red;
+    background-color: #634a4a;
+}
+.versionscontainer1{
+    display: none;
 }

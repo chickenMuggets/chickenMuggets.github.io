@@ -9,4 +9,41 @@ function checksearch() {
         }
     });
 };
+function showbutton2() {
+    const moreversionsbuttons = document.getElementById('versions');
+    const moreversionshidebuttons = document.getElementById('moreversions');
+    moreversionsbuttons.style.display = "inline-block"; // Show
+    moreversionshidebuttons.style.display = "none"; // Hide
+}
+function hidebutton2() {
+    const moreversionsbuttons = document.getElementById('versions');
+    const moreversionshidebuttons = document.getElementById('moreversions');
+    moreversionsbuttons.style.display = "none"; // Hide
+    moreversionshidebuttons.style.display = "inline-block"; // Show
+}
+function showbutton2() {
+    const moreversionsbuttons = document.getElementById('versions');
+    const moreversionshidebuttons = document.getElementById('moreversions');
+    moreversionsbuttons.style.display = "inline-block"; // Show
+    moreversionshidebuttons.style.display = "none"; // Hide
+}
+function hidebutton2() {
+    const moreversionsbuttons = document.getElementById('versions');
+    const moreversionshidebuttons = document.getElementById('moreversions');
+    moreversionsbuttons.style.display = "none"; // Hide
+    moreversionshidebuttons.style.display = "inline-block"; // Show
+}
+function showbutton1() {
+    const moreversionsbuttons = document.getElementById('versions1');
+    const moreversionshidebuttons = document.getElementById('moreversions1');
+    moreversionsbuttons.style.display = "inline-block"; // Show
+    moreversionshidebuttons.style.display = "none"; // Hide
+}
+function hidebutton1() {
+    const moreversionsbuttons = document.getElementById('versions1');
+    const moreversionshidebuttons = document.getElementById('moreversions1');
+    moreversionsbuttons.style.display = "none"; // Hide
+    moreversionshidebuttons.style.display = "inline-block"; // Show
+}
+function downloadversion4() {}
 setInterval(checksearch,10)
