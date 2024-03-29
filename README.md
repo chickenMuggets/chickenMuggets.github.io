@@ -11,6 +11,7 @@ Features being worked on:
     changing header on websites page to say "websites" instead of "projects",
     Updating about me and credit pages to more monotone designs to be more consitent with newer pages.,
     Effect that is on reaction time button being added to talk to yourself button,
+    A page to see a modifided version of this document on the website itself
 Long term features being added:
     Lightmode (will be coming at furthest 29/06/24),
     light/dark mode toggle switch (will be coming at furthest 29/06/24)
