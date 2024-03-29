@@ -6,7 +6,7 @@ New features:
     Page Buttons Highlight When Hovering Over
     pressing view more versions shows more buttons instead of redirecting you to the the project page
 Features being worked on:
-    Adding a google sheets 
+    Adding a google sheets for suggestions and messages to the developer
     Allowing multiple files to download at once on view more versions buttons
     changing header on websites page to say "websites" instead of "projects"
     Updating about me and credit pages to more monotone designs to be more consitent with newer pages.
