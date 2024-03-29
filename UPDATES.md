@@ -16,4 +16,4 @@ Long term features being added:
 
 
 [this is only the last 10 updates to see a full list of updates starting from 29/03/24 click here](updatelog.md)
-[Go to Home](index)
+[Go to Home](index.html)
