@@ -202,3 +202,33 @@
 .versionscontainer1{
     display: none;
 }
+.footer{
+    margin-top: 50px;
+    background-color:rgb(51, 51, 51);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-bottom: 1px;
+}
+.footerhead{
+    background-color:rgb(51, 51, 51);
+    color: lightcyan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.viewupdate{
+    color: lightcyan;
+    text-decoration: none;
+    color: #5a5a5a;
+}
+.footercontainer{
+    border-radius: 12px;
+}
+.updatelink{
+    color: lightcyan;
+    text-decoration: none;
+}
+.updatelinklink{
+    color:rgb(144, 255, 255);
+    text-decoration: underline;
+}
