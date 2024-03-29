@@ -15,5 +15,5 @@ Long term features being added:
     light/dark mode toggle switch (will be coming at furthest 29/06/24)
 
 
-[this is only the last 10 updates to see a full list of updates starting from 29/03/24 click here](updatelog)
+[this is only the last 10 updates to see a full list of updates starting from 29/03/24 click here](updatelog.md)
 [Go to Home](index)
