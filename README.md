@@ -8,7 +8,7 @@ New features:
 Features being worked on:
     Adding a google sheets for suggestions and messages to the developer,
     Allowing multiple files to download at once on view more versions buttons,
-    changing header on websites page to say "websites" instead of "projects",
+    Changing header on websites page to say "websites" instead of "projects",
     Updating about me and credit pages to more monotone designs to be more consitent with newer pages.,
     Effect that is on reaction time button being added to talk to yourself button,
     A page to see a modifided version of this document on the website itself
