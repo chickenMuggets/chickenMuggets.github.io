@@ -45,5 +45,12 @@ function hidebutton1() {
     moreversionsbuttons.style.display = "none"; // Hide
     moreversionshidebuttons.style.display = "inline-block"; // Show
 }
-function downloadversion4() {}
+function RBLP() {
+    const betaLP = document.getElementById('betaLP');
+    if (betaLP.style.display === "block") {
+        betaLP.style.display = "none"; // Hide
+    } else{
+        betaLP.style.display = "block"; // Show
+    }
+}
 setInterval(checksearch,10)
