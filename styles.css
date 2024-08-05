@@ -60,6 +60,12 @@
     padding: 20px;
     margin-bottom: 20px;
 }
+.project-title {
+    text-decoration:solid;
+    font-weight:bolder;
+    font-size:x-large;
+    color: black;
+}
 .inline{
     display: inline;
 }
