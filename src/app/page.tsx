@@ -4,8 +4,8 @@ import "./styles.css"
 export default function Home() {
   return (
     <div style={{backgroundColor: "#333333"}}>
-      <header>
-        <h1 className="header">Welcome to my website</h1>
+      <header className="header">
+        <h1 className="header"><strong>Welcome to my website</strong></h1>
       </header>
       <div className="buttons">
         <a href="" className="button-1 pageon">Projects</a>
