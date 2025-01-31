@@ -29,6 +29,25 @@ export default function Home() {
               <a className="project-link" href="https://github.com/chicken-muggets/auto-typer/archive/refs/heads/main.zip" download>Download latest Auto Spammer</a>
             </div>
           </section>
+          <section>
+            <div className="project-box" id="project-box">
+              <a href="https://github.com/chickenmuggets/keyboard-shortcuts" className="project-title">Keyboard Shortcuts</a>
+              <br />
+              <br />
+              <p className="project-description">Adds more shortcuts to keyboard. read the README.MD file for a list of them</p>
+              <a className="project-link" href="https://github.com/chicken-muggets/keyboard-shortcuts/archive/refs/heads/main.zip" download>Download latest Keyboard Shortcuts</a>
+            </div>
+          </section>
+          <section>
+            <div className="project-box" id="project-box">
+              <a href="https://github.com/chickenmuggets/auto-typer" className="project-title">Education perfect spammer</a>
+              <br />
+              <br />
+              <p className="project-description">Uses color detection to see when you are on a information slide and automatically presses enter when required</p>
+              <a className="project-link" href="https://github.com/chicken-muggets/auto-typer/archive/refs/heads/main.zip" download>Download latest Education Perfect Spammer</a>
+              <a className="inline" style={{color: "lime"}}>Education perfect spammer will now get future versions</a>
+            </div>
+          </section>
         </div>
       </main>
     </div>
