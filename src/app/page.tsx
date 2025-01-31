@@ -1,7 +1,9 @@
 import Image from "next/image";
-import "./styles.css"
+import "./styles.css";
+import React from "react";
+import Link from "next/link";
 
-export default function Home() {
+export default function Projects() {
   return (
     <div style={{backgroundColor: "#333333"}}>
       <header className="header">
@@ -9,7 +11,9 @@ export default function Home() {
       </header>
       <div className="buttons">
         <a href="" className="button-1 pageon">Projects</a>
-        <a href="" className="button-1">Websites</a>
+        <Link href="/websites">
+          <p className="button-1 inline">Websites</p>
+        </Link>
       </div>
       <main>
         <br />
