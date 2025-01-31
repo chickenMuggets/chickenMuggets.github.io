@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import '../styles.css';
+import Link from 'next/link';
 
 const Websites = () => {
   return (
@@ -8,9 +9,15 @@ const Websites = () => {
       <header className="header">
         <h1>Websites</h1>
       </header>
+      <div className="buttons">
+        <Link href="/">
+        <p className="button-1 inline">Projects</p>
+        </Link>
+        <a className="button-1 inline pageon">Websites</a>
+      </div>
       <main>
+
         <p>This is the websites page.</p>
-        <button onClick={() => window.location.href = '/'}>Go to Main Page</button>
       </main>
     </div>
   );
