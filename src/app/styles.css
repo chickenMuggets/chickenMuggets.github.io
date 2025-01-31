@@ -101,28 +101,6 @@
 .versionscontainer{
     display: none;
 }
-.am{
-    text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: pink;
-}
-.credits{
-    font-size:small;
-    color: lightblue;
-}
-.creditbutton{
-    display: inline-block;
-    padding: 2px 4px;
-    color: black;
-    text-decoration: none;
-    background-color:rgb(71, 71, 71);
-    border-radius: 10px;
-}
-.me{
-    font-size: larger;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:#ed9797;
-}
 .center{
     text-align: center;
 }
@@ -132,22 +110,6 @@
 .allprojects{
     color: rgb(0, 210, 0);
     text-decoration: none;
-}
-.githublink2{
-    color: black;
-    background-color:rgb(177, 212, 255);
-    text-decoration: none;
-    padding: 12px;
-    border-radius: 6px;
-    box-shadow: 0 0px 25px rgb(73, 90, 143);
-}
-.githublink{
-    color: black;
-    background-color:rgb(255, 177, 177);
-    text-decoration: none;
-    padding: 12px;
-    border-radius: 6px;
-    box-shadow: 0 0px 25px rgb(143, 74, 74);
 }
 .projectthing{
     text-decoration: none;
@@ -163,11 +125,6 @@
     padding: 3px;
     margin: 2px;
     border-radius: 2px;
-}
-.credits-header {
-    text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: lightblue;
 }
 .searchbox {
     background-color: #4b4b4b;
@@ -263,7 +220,5 @@
     display: none;
 }
 body {
-    margin: 0;
-    padding: 0;
     background-color: #333333;
 }
