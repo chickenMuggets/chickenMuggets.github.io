@@ -67,8 +67,11 @@
 .project-title {
     text-decoration:solid;
     font-weight:bolder;
-    font-size:x-large;
+    font-size: xx-large;
     color: black;
+}
+.project-description {
+    font-size: x-large;
 }
 .inline{
     display: inline;
