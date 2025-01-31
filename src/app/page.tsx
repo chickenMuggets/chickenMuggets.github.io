@@ -9,8 +9,9 @@ export default function Home() {
       </header>
       <div className="buttons">
         <a href="" className="button-1 pageon">Projects</a>
-        <a href="" className="button-2">Websites</a>
+        <a href="" className="button-1">Websites</a>
       </div>
+
     </div>
   );
 }

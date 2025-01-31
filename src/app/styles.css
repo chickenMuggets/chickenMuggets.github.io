@@ -10,10 +10,12 @@
 .button-1{
     padding: 3px;
     margin: 2px;
+    font-size: 22px;
     border-radius: 2px;
     color:white;
     text-decoration: none;
     transition-duration: .3s;
+    font-family: 'Times New Roman', Times, serif;
 }
 .button-1:hover{
     background-color: rgb(95, 95, 95);
