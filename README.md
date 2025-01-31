@@ -4,6 +4,7 @@ what is this?
 ---
 This is a nextjs web app designed to replace the legacy version of [chickenmuggets.github.io](chickenmuggets.github.io) 
 
+![Homepage](homepage.png)
 
 
 what is the difference from the legacy version?
@@ -13,7 +14,7 @@ the difference is that the legacy version was written in plain html,css, and jav
  
 When will it be finished?
 ---
-It will be finished somewhere in the month of february and will have minor parity changes for that month. Then it will be merged into the main branch where it will be deployed as the main website
+It will be finished early february. Then it will be merged into the main branch where it will be deployed as the main website
 
 Why is it being changed
 ---
