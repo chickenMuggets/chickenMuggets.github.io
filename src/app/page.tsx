@@ -49,6 +49,13 @@ export default function Home() {
             </div>
           </section>
         </div>
+        <div className="footercontainer">
+          <footer className="footer">
+              <h3 className="footerhead">Additinal info</h3>
+              <p className="updatelink">this page is licenced under the CC0-1.0 license for more info click <a href="https://github.com/chickenmuggets/projects/blob/main/LICENSE" target="blank" className="updatelinklink">here</a></p>
+              <a href="updatelog.md" target="_blank" className="viewupdate">view updatelog</a>
+          </footer>
+        </div>
       </main>
     </div>
   );

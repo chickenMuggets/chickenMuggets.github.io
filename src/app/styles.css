@@ -186,6 +186,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     padding-bottom: 10px;
+    font-size: x-large;
 }
 .viewupdate{
     color: lightcyan;
@@ -198,6 +199,7 @@
 .updatelink{
     color: lightcyan;
     text-decoration: none;
+    font-size: large;
 }
 .updatelinklink{
     color:rgb(144, 255, 255);
