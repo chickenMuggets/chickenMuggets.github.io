@@ -32,7 +32,7 @@ const Websites = () => {
                 <br />
                 <br />
                 <p className="project-description">Press the button to begin to talk to yourself</p>
-                <a className="project-link" href="https://github.com/chicken-muggets/auto-typer/archive/refs/heads/main.zip" download>Talk to yourself</a>
+                <a className="project-link" href="https://chickenmuggets.github.io/talk-to-yourself/" target='blank'>Talk to yourself</a>
               </div>
             </section>
         </div>
