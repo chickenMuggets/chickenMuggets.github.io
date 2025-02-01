@@ -1,19 +1,25 @@
-My website.
-You can download my projects off of here instead of going to my github and having to sort through all my repsoitorys.
+# Main Website
 
-New features:
-    Searching,
-    Page Buttons Highlight When Hovering Over,
-    pressing view more versions shows more buttons instead of redirecting you to the the project page
-Features being worked on:
-    Adding a google sheets for suggestions and messages to the developer,
-    Allowing multiple files to download at once on view more versions buttons,
-    Changing header on websites page to say "websites" instead of "projects",
-    Updating about me and credit pages to more monotone designs to be more consitent with newer pages.,
-    Effect that is on reaction time button being added to talk to yourself button,
-    A page to see a modifided version of this document on the website itself
-Long term features being added:
-    Lightmode (will be coming at furthest 29/06/24),
-    light/dark mode toggle switch (will be coming at furthest 29/06/24)
-Why am I seeing this:
-    If you Go to my website and see this then it means that the website has been taken offline temporarily please wait for developers to resolve the issue
+what is this?
+---
+This is a nextjs web app designed to replace the legacy version of [chickenmuggets.github.io](chickenmuggets.github.io) 
+
+![Homepage](homepage.png)
+
+
+what is the difference from the legacy version?
+---
+the difference is that the legacy version was written in plain html,css, and javascript while this version is written in react with the [next js framework](https://nextjs.org/) 
+
+ 
+When will it be finished?
+---
+It will be finished early february. Then it will be merged into the main branch where it will be deployed as the main website
+
+Why is it being changed
+---
+it is being changed because the original website was outdated and several downloads as well as links didn't work
+
+Can I access the old website
+---
+Yes, once the website is finished and merged into the main, the old website will be published [here](https://chickenmuggets.github.io/legacy)
