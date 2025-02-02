@@ -5,6 +5,7 @@ what is this?
 This is a nextjs web app designed to replace the legacy version of [chickenmuggets.github.io](chickenmuggets.github.io) 
 
 ![Homepage](homepage.png)
+![Websites](websites.png)
 
 
 what is the difference from the legacy version?
