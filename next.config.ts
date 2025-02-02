@@ -1,28 +1,20 @@
+const isProd = process.env.NODE_ENV === "production";
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /**
-   * Enable static exports for the App Router.
-   *
-   * @see https://nextjs.org/docs/app/building-your-application/deploying/static-exports
-   */
+  // Enables static export for deployment on GitHub Pages
   output: "export",
 
-  /**
-   * Set base path. This is the slug of your GitHub repository.
-   *
-   * @see https://nextjs.org/docs/app/api-reference/next-config-js/basePath
-   */
-  basePath: "/nextjs-github-pages",
+  // Set basePath only in production (GitHub Pages)
+  basePath: isProd ? "/nextjs-github-pages" : "",
 
-  /**
-   * Disable server-based image optimization. Next.js does not support
-   * dynamic features with static exports.
-   *
-   * @see https://nextjs.org/docs/app/api-reference/components/image#unoptimized
-   */
+  // Fixes image issues since Next.js doesn't support dynamic images with static export
   images: {
     unoptimized: true,
   },
+
+  // Ensures correct asset paths for GitHub Pages
+  assetPrefix: isProd ? "/nextjs-github-pages/" : "",
 };
 
 export default nextConfig;
