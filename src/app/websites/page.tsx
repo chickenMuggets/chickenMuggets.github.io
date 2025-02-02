@@ -41,9 +41,9 @@ const Websites = () => {
 
       <div className="footercontainer">
           <footer className="footer">
-              <h3 className="footerhead">Additinal info</h3>
+              <h3 className="footerhead">Additinal info</h3>;[0-l
+              ]
               <p className="updatelink">this page is licenced under the CC0-1.0 license for more info click <a href="https://github.com/chickenMuggets/chickenMuggets.github.io/blob/main/LICENSE" target="blank" className="updatelinklink">here</a></p>
-              <a href="updatelog.md" target="_blank" className="viewupdate">view updatelog</a>
           </footer>
         </div>
     </div>

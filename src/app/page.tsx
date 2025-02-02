@@ -4,6 +4,7 @@ import "./styles.css";
 import React from "react";
 import Link from "next/link";
 import { useState } from "react";
+import { PassThrough } from "stream";
 
 export default function Projects() {
 
@@ -30,6 +31,17 @@ export default function Projects() {
   function downloadProject(project: string, version:number) {
     if (project == "autotyper") {
         window.location.href = 'https://github.com/chickenMuggets/auto-typer/releases/download/v' + version + '/Autotyper.v' + version + '.py';
+    }
+    else if (project == "keyboard-shortcuts") {
+      if (version != 2) {
+        window.location.href = 'https://github.com/chickenMuggets/keyboard-shortcuts/releases/download/v' + version + '/shortcuts.v' + version + '.py'
+      }
+      else {
+          window.location.href = 'https://github.com/chickenMuggets/keyboard-shortcuts/releases/download/v2/crash.v2.py'
+      }
+    }
+    else if (project == "education-perfect-spammer") {
+    
     }
   }
 
@@ -70,6 +82,7 @@ export default function Projects() {
               <br />
               <p className="project-description">Adds more shortcuts to keyboard. read the README.MD file for a list of them</p>
               <a className="project-link" href="https://github.com/chicken-muggets/keyboard-shortcuts/archive/refs/heads/main.zip" download>Download latest Keyboard Shortcuts</a>
+              <div id="versions2" className="versionscontainer"><button className="versions" onClick={() => downloadProject("keyboard-shortcuts",3.1)}>Download Keyboard Shortcuts v3.1</button> <button className="versions" onClick={() => downloadProject("keyboard-shortcuts",3)}>Download Keyboard Shortcuts v3</button> <button className="versions" onClick={() => downloadProject("keyboard-shortcuts",2)}>Download Keyboard Shortcuts v2</button></div><button className="moreversions" id="moreversions2" onClick={() => showversions(2)}>view more versions</button>
             </div>
           </section>
           <section>
@@ -87,7 +100,6 @@ export default function Projects() {
           <footer className="footer">
               <h3 className="footerhead">Additinal info</h3>
               <p className="updatelink">this page is licenced under the CC0-1.0 license for more info click <a href="https://github.com/chickenMuggets/chickenMuggets.github.io/blob/main/LICENSE" target="blank" className="updatelinklink">here</a></p>
-              <a href="updatelog.md" target="_blank" className="viewupdate">view updatelog</a>
           </footer>
         </div>
       </main>
