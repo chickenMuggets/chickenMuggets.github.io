@@ -97,6 +97,7 @@
     -ms-user-select: none;
     user-select: none;
     border: none;
+    display: inline;
 }
 .versionscontainer{
     display: none;

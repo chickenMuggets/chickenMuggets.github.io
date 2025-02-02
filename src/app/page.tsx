@@ -1,12 +1,13 @@
 "use client";
 import Image from "next/image";
 import "./styles.css";
-import React from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
-import { useState } from "react";
-import { PassThrough } from "stream";
 
 export default function Projects() {
+
+  
+
 
   //display and hide versions
   function showversions(number: number) {
