@@ -14,7 +14,7 @@ the difference is that the legacy version was written in plain html,css, and jav
  
 When will it be finished?
 ---
-It will be finished early february. Then it will be merged into the main branch where it will be deployed as the main website
+It is finished now however it will be reciving new features and should have the full featureset of the legacy website by the 16th of February 
 
 Why is it being changed
 ---
@@ -22,4 +22,4 @@ it is being changed because the original website was outdated and several downlo
 
 Can I access the old website
 ---
-Yes, once the website is finished and merged into the main, the old website will be published [here](https://chickenmuggets.github.io/legacy)
+Yes, you can find the old website [here](https://chickenmuggets.github.io/Legacy)
