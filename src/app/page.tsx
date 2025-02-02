@@ -25,6 +25,13 @@ export default function Projects() {
     }
   }
 
+  //download files
+
+  function downloadProject(project: string, version:number) {
+    if (project == "autotyper") {
+        window.location.href = 'https://github.com/chickenMuggets/auto-typer/releases/download/v' + version + '/Autotyper.v' + version + '.py';
+    }
+  }
 
   return (
     <div style={{backgroundColor: "#333333"}}>
@@ -53,7 +60,7 @@ export default function Projects() {
               <br />
               <p className="project-description">Automatically types whatever placed into box</p>
               <a className="project-link" href="https://github.com/chicken-muggets/auto-typer/archive/refs/heads/main.zip" download>Download latest Autotyper</a>
-              <div id="versions1" className="versionscontainer"><button className="versions">Download Autotyper v4</button> <button className="versions">Download Autotyper v3</button> <button className="versions">Download Autotyper v2</button> <button className="versions">Download Autotyper v1</button></div><button className="moreversions" id="moreversions1" onClick={() => showversions(1)}>view more versions</button>
+              <div id="versions1" className="versionscontainer"><button className="versions" onClick={() => downloadProject("autotyper",4)}>Download Autotyper v4</button> <button className="versions" onClick={() => downloadProject("autotyper",3)}>Download Autotyper v3</button> <button className="versions" onClick={() => downloadProject("autotyper",2)}>Download Autotyper v2</button> <button className="versions" onClick={() => downloadProject("autotyper",1)}>Download Autotyper v1</button></div><button className="moreversions" id="moreversions1" onClick={() => showversions(1)}>view more versions</button>
             </div>
           </section>
           <section>
